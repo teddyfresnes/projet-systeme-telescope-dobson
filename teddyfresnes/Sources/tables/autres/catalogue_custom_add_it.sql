@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `telescope`.`catalogue_custom` (`Name` varchar(64), `RA` varchar(11), `Declinaison` varchar(11), `Const` varchar(9)) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;; 

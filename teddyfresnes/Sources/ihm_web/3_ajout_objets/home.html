@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>E6.2 Téléscope</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	
+	
+	<body>
+	
+	
+		<div class="main-wrapper">
+		
+			<div class="telescope_header">
+				<a href="home.html">
+					<div class="header_img"></div>
+				</a>
+			</div>
+		
+		
+			<div class="wrapper">
+				
+				
+				<div class="container" id="container_1">
+					<span class="c_title">Données GPS</span>
+					<table class="table" id="table_1">
+						<tr>
+							<td>
+								<span class="table_key">Date</span>
+							</td>
+							<td>
+								<div class="table1_value_wrapper">
+									<span class="table_value"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="table_key">Longitude</span>
+							</td>
+							<td>
+								<div class="table1_value_wrapper">
+									<span class="table_value"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="table_key">Latitude</span>
+							</td>
+							<td>
+								<div class="table1_value_wrapper">
+									<span class="table_value"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="table_key">HH:MM:SS</span>
+							</td>
+							<td>
+								<div class="table1_value_wrapper">
+									<span class="table_value"></span>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+				
+				<div class="container" id="container_2">
+					<table class="table" id="table_3">
+						<tr>
+							<td>
+								<span class="table_key">Initialisation téléscope</span>
+							</td>
+							<td>
+								<span class="table_key">Témoin d'activité</span>
+							</td>
+							<td>
+								<span class="table_key">Manuel/Automatique</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="table_item">
+									<button class="depth" type="button">&#9673;</button>
+								</div>
+							</td>
+							<td>
+								<div class="led_box">
+									<div class="led-red" value="active"></div>
+								</div>
+							</td>
+							<td class="table_item">
+								<label class="toggle">
+								  <input class="toggle-checkbox" type="checkbox" enabled>
+								  <div class="toggle-switch"></div>
+								  <br />
+								  <span class="toggle-label">Automatique</span>
+								</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+				
+				<div class="container" id="container_3">
+					<div class="container" id="container_3_database">
+						<span class="f_title">Sélection</span>
+					</div>
+					
+					<div class="container" id="container_3_choice">
+						<div class="form">
+							<div class="f_title">Coordonnées</div>
+							<div class="input-container ic1">
+								<input id="firstname" class="input" type="text" placeholder=" " />
+								<div class="cut"></div>
+								<label for="firstname" class="placeholder">Ascention droite HH:MM:SS</label>
+							</div>
+							<div class="input-container ic2">
+								<input id="lastname" class="input" type="text" placeholder=" " />
+								<div class="cut"></div>
+								<label for="lastname" class="placeholder">Déclinaison +HH:MM:SS</label>
+							</div>
+							<button type="text" class="submit">Calculer</button>
+						</div>
+					</div>	
+				</div>
+				
+				
+				<div class="container" id="container_4">
+					<table class="table" id="table_2">
+						<tr>
+							<td>
+								<span class="table_key">Etoile sélectionée :</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="table2_value_wrapper">
+									<span class="table_value"></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span class="table_key">Delta azimuth :</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="table2_value_wrapper">
+									<span class="table_value"></span>
+								</div>
+							</td>
+						</tr>						
+						<tr>
+							<td>
+								<span class="table_key">Delta hauteur :</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="table2_value_wrapper">
+									<span class="table_value"></span>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>
