@@ -1,0 +1,196 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	
+	font-family: futura, bryant, sans-serif, arial;
+}
+
+
+.main-wrapper
+{
+	height: 100%;
+	width: 100%;
+	
+	position: fixed;
+	
+	background-image: url(../images/background.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.telescope_header
+{
+	height: 20%;
+	width: 80%;
+	
+	position: relative;
+	margin-left: 10%;
+	
+	background-color: transparent;
+}
+
+
+.wrapper
+{
+	height: 80%;
+	width: 80%;
+	
+	position: relative;
+	float: left;
+	/* margin-left: 10%; */
+	z-index: 0;
+	
+	background-color: #202020;
+	border: 7px solid #2C546F;
+}
+
+
+.wrapper_left
+{
+	height: 80%;
+	width: 10%;
+	
+	position: relative;
+	float: left;
+	padding-top: 45%;
+	
+	vertical-align: bottom;
+	display: table-cell;
+}
+
+
+.container
+{
+	height: 47%;
+	width: 47%;
+	
+	position: relative;
+	
+	/*background-color: #282828;*/
+	background-color:rgba(40, 40, 40);
+	border: 2px solid #2C546F;
+	/*border-bottom: 2px solid #202020;*/
+}
+
+
+#container_1
+{
+	float: left;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+
+#container_2
+{
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+	
+	background-color: transparent;
+}
+
+
+#container_3
+{
+	float: left;
+	margin-top: 1%;
+	margin-left: 2%;
+	
+	background-color: transparent;
+}
+
+
+#container_4
+{
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+}
+
+
+#container_3_choice
+{
+	height: 97%;
+	
+	float: left;
+	margin-top: 1%;
+	margin-right: 2%;
+	
+	border: 2px solid #202020;
+	border-left: 2px solid #171717;
+	background-color: transparent;
+}
+
+
+#container_3_database
+{
+	height: 97%;
+	/* flex agit comme une liste mais les tailles ne sont plus respectés */
+	display: grid;
+	
+	float: left;
+	margin-top: 1%;
+	margin-right: 2%;
+	
+	border: 2px solid #202020;
+	border-right: 2px solid #171717;
+	background-color: transparent;
+	text-align: center;
+}
+
+
+#c_title
+{
+	position: relative;
+	
+	width: 100%;
+	height: 15%;
+	
+	background-color: blue;
+}
+
+
+#c_db_filter
+{
+	position: relative;
+	
+	width: 100%;
+	height: 25%;
+	
+	background-color: white;
+}
+
+
+#c_db_scroll
+{
+	position: relative;
+	
+	width: 100%;
+	height: 45%;
+	
+	background-color: red;
+}
+
+
+#c_db_button
+{
+	position: relative;
+	
+	width: 100%;
+	height: 15%;
+	
+	background-color: green;
+}
+
+
+
+
+
+
+
+
+
